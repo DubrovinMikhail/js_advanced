@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "git repository": "https://github.com/DubrovinMikhail/js_advanced/tree/main/standards_working_environment",
   "keywords": [
     "game"
   ],
