@@ -1,7 +1,10 @@
-const {
-  Bowerman, Deamon, Magician, Swordsman, Undead, Zombie,
-} = require('../js/app');
-// console.log(new Bowerman('aasawedrftyh'))
+import Bowerman from '../js/bowerman';
+import Deamon from '../js/deamon';
+import Magician from '../js/magician';
+import Swordsman from '../js/swordsman';
+import Undead from '../js/undead';
+import Zombie from '../js/zombie';
+
 test('testing creat Bowerman', () => {
   const person = {
     name: 'Ivan',
