@@ -1,4 +1,4 @@
-import getSpecialAttack from '../index';
+import getSpecialAttack from '../app';
 
 test('test getSpecialAttack', () => {
   const character = {
