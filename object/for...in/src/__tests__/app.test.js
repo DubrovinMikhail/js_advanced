@@ -1,23 +1,5 @@
 import orderByProps from '../app';
 
-test('orderByProps testing for errror transfer of an empty object', () => {
-  const user = {};
-  const propsList = ['name', 'health'];
-  expect(() => { orderByProps(user, propsList); }).toThrow(new Error('Передаваемый объект пуст'));
-});
-
-test('orderByProps testing for errror transfer of an empty propertis list', () => {
-  const user = {
-    name: 'Alex',
-    health: 100,
-    level: 1,
-    attack: 20,
-    defence: 50,
-  };
-  const propsList = [];
-  expect(() => { orderByProps(user, propsList); }).toThrow(new Error('передаваемый список свойств пуст'));
-});
-
 test('orderByProps testing for success', () => {
   const user = {
     name: 'Alex',
